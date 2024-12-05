@@ -3,5 +3,5 @@
 
 import day01 from "./day-01.ts";
 
-console.log("Day 1 - Part 1: ", day01.solve.part1());
-// console.log("Day 1 - Part 2: ", day01.solve.part2());
+console.log("Day 1 - Part One: ", day01.solve.partOne());
+// console.log("Day 1 - Part Two: ", day01.solve.partTwo());

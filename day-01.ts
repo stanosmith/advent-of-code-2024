@@ -3,8 +3,8 @@ import { getInput } from "./utils.ts";
 
 export default {
 	solve: {
-		part1,
-		part2,
+		partOne: partOne,
+		partTwo: partTwo,
 	},
 };
 
@@ -19,7 +19,7 @@ function _getInput(isTest?: boolean) {
 }
 
 // @see https://adventofcode.com/2024/day/1
-function part1() {
+function partOne() {
 	// const input = _getInput(true);
 	const input = _getInput();
 	// console.log(input);
@@ -37,7 +37,7 @@ function part1() {
 	return _.sum(distances);
 }
 
-function part2() {
+function partTwo() {
 	const input = _getInput(true);
 	console.log(input);
 }
