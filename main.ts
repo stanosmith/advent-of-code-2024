@@ -9,5 +9,5 @@ import day02 from "./day-02.ts";
 // console.log("Day 1 - Part Two: ", day01.solve.partTwo());
 //
 // --- Day 2: Red-Nosed Reports ---
-console.log("Day 2 - Part One: ", day02.solve.partOne());
-// console.log("Day 2 - Part Two: ", day02.solve.partTwo());
+// console.log("Day 2 - Part One: ", day02.solve.partOne());
+console.log("Day 2 - Part Two: ", day02.solve.partTwo());
