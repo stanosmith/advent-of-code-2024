@@ -14,5 +14,5 @@ import day03 from "./day-03.ts";
 // console.log("Day 2 - Part Two: ", day02.solve.partTwo());
 //
 // --- Day 3: Red-Nosed Reports ---
-console.log("Day 3 - Part One: ", day03.solve.partOne());
-// console.log("Day 3 - Part Two: ", day03.solve.partTwo());
+// console.log("Day 3 - Part One: ", day03.solve.partOne());
+console.log("Day 3 - Part Two: ", day03.solve.partTwo());
