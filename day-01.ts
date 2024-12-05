@@ -3,8 +3,8 @@ import { getInput } from "./utils.ts";
 
 export default {
 	solve: {
-		partOne: partOne,
-		partTwo: partTwo,
+		partOne,
+		partTwo,
 	},
 };
 
