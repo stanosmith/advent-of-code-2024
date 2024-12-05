@@ -73,5 +73,53 @@ function partOne() {
 function partTwo() {
 	const reports = _getInput(true);
 	// const reports = _getInput();
-	console.log(reports);
+	// console.log(reports);
+
+	const safeReports = reports.filter((report) => {
+		const increaseOrDecrease = (increase?: boolean) => {
+			return (level: number, index: number) => {
+				// TODO: Rewrite as fori loop so we can exit early
+				const nextLevel = report[index + 1];
+
+				if (typeof nextLevel === "undefined") return true;
+
+				return increase ? level < nextLevel : level > nextLevel;
+			};
+		};
+		const withinRange = (level: number, index: number) => {
+			// TODO: Rewrite as fori loop so we can exit early
+			const nextLevel = report[index + 1];
+			if (typeof nextLevel === "undefined") return true;
+
+			const diff = Math.abs(level - nextLevel);
+
+			return diff === 1 || diff === 2 || diff === 3;
+		};
+
+		const increasing = report.filter(increaseOrDecrease(true));
+		const allIncreasing = increasing.length === report.length;
+
+		const decreasing = report.filter(increaseOrDecrease());
+		const allDecreasing = decreasing.length === report.length;
+
+		const diffWithinRange = report.filter(withinRange);
+		const allDiffWithinRange = diffWithinRange.length === report.length;
+
+		console.table({
+			increasing,
+			decreasing,
+			allIncreasing,
+			allDecreasing,
+			diffWithinRange,
+			allDiffWithinRange,
+		});
+
+		const safe = (allIncreasing || allDecreasing) && allDiffWithinRange;
+
+		console.log(report, safe ? "SAFE" : "UNSAFE");
+
+		return safe;
+	});
+
+	return safeReports.length;
 }
