@@ -6,6 +6,7 @@
 // import day03 from "./day-03.ts";
 import day04 from "./day-04.ts";
 // import day05 from "./day-05.ts";
+// import day06 from "./day-06.ts";
 
 // --- Day 1: Historian Hysteria ---
 // console.log("Day 1 - Part One: ", day01.solve.partOne());
@@ -26,3 +27,7 @@ console.log("Day 4 - Part One: ", day04.solve.partOne());
 // --- Day 5: Print Queue ---
 // console.log("Day 5 - Part One: ", day05.solve.partOne());
 // console.log("Day 5 - Part Two: ", day05.solve.partTwo());
+//
+// --- Day 6: TBD ---
+// console.log("Day 6 - Part One: ", day06.solve.partOne());
+// console.log("Day 6 - Part Two: ", day06.solve.partTwo());
