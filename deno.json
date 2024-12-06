@@ -5,7 +5,9 @@
 	"imports": {
 		"@biomejs/biome": "npm:@biomejs/biome@^1.9.4",
 		"@std/assert": "jsr:@std/assert@1",
-		"lodash": "npm:lodash@^4.17.21"
+		"@types/lodash": "npm:@types/lodash@^4.17.13",
+		"lodash": "npm:lodash@^4.17.21",
+		"lodash/fp": "npm:lodash@^4.17.21"
 	},
 	"nodeModulesDir": "auto"
 }
