@@ -8,7 +8,7 @@ export default {
 	},
 };
 
-// @see https://adventofcode.com/2024/day/4
+// @see https://adventofcode.com/2024/day/5
 function _getInput(isTest?: boolean) {
 	return getInput({ day: "05" }, isTest);
 }

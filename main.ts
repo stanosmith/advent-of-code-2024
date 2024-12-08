@@ -7,6 +7,8 @@
 import day04 from "./day-04.ts";
 // import day05 from "./day-05.ts";
 // import day06 from "./day-06.ts";
+// import day07 from "./day-07.ts";
+// import day08 from "./day-08.ts";
 
 // --- Day 1: Historian Hysteria ---
 // console.log("Day 1 - Part One: ", day01.solve.partOne());
@@ -28,6 +30,14 @@ console.log("Day 4 - Part One: ", day04.solve.partOne());
 // console.log("Day 5 - Part One: ", day05.solve.partOne());
 // console.log("Day 5 - Part Two: ", day05.solve.partTwo());
 //
-// --- Day 6: TBD ---
+// --- Day 6: Guard Gallivant ---
 // console.log("Day 6 - Part One: ", day06.solve.partOne());
 // console.log("Day 6 - Part Two: ", day06.solve.partTwo());
+//
+// --- Day 7: Bridge Repair ---
+// console.log("Day 7 - Part One: ", day07.solve.partOne());
+// console.log("Day 7 - Part Two: ", day07.solve.partTwo());
+//
+// --- Day 8: Resonant Collinearity ---
+// console.log("Day 8 - Part One: ", day08.solve.partOne());
+// console.log("Day 8 - Part Two: ", day08.solve.partTwo());
