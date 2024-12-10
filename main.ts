@@ -4,11 +4,13 @@
 // import day01 from "./day-01.ts";
 // import day02 from "./day-02.ts";
 // import day03 from "./day-03.ts";
-import day04 from "./day-04.ts";
+// import day04 from "./day-04.ts";
 // import day05 from "./day-05.ts";
 // import day06 from "./day-06.ts";
 // import day07 from "./day-07.ts";
 // import day08 from "./day-08.ts";
+// import day09 from "./day-09.ts";
+// import day10 from "./day-10.ts";
 
 // --- Day 1: Historian Hysteria ---
 // console.log("Day 1 - Part One: ", day01.solve.partOne());
@@ -23,7 +25,7 @@ import day04 from "./day-04.ts";
 // console.log("Day 3 - Part Two: ", day03.solve.partTwo());
 //
 // --- Day 4: Ceres Search ---
-console.log("Day 4 - Part One: ", day04.solve.partOne());
+// console.log("Day 4 - Part One: ", day04.solve.partOne());
 // console.log("Day 4 - Part Two: ", day04.solve.partTwo());
 //
 // --- Day 5: Print Queue ---
@@ -41,3 +43,11 @@ console.log("Day 4 - Part One: ", day04.solve.partOne());
 // --- Day 8: Resonant Collinearity ---
 // console.log("Day 8 - Part One: ", day08.solve.partOne());
 // console.log("Day 8 - Part Two: ", day08.solve.partTwo());
+//
+// --- Day 9: Resonant Collinearity ---
+// console.log("Day 9 - Part One: ", day09.solve.partOne());
+// console.log("Day 9 - Part Two: ", day09.solve.partTwo());
+//
+// --- Day 10: Resonant Collinearity ---
+// console.log("Day 10 - Part One: ", day10.solve.partOne());
+// console.log("Day 10 - Part Two: ", day10.solve.partTwo());

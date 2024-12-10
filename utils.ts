@@ -1,15 +1,11 @@
 export function getInput(
-	options: { day: string; parseFn?: (input: string) => string[] },
+	options: { day: string; skipParse?: boolean },
 	isTest?: boolean,
 ) {
-	const { day, parseFn } = options;
+	const { day, skipParse } = options;
 	const path = `./inputs/day-${day}${isTest ? "-test" : ""}`;
 	const input = Deno.readTextFileSync(`${path}.txt`);
 
-	if (typeof parseFn === "function") return parseFn(input);
-	return defaultParse(input);
-}
-
-function defaultParse(input: string) {
+	if (typeof skipParse === "function") return input;
 	return input.split("\n").filter((item) => !!item);
 }
